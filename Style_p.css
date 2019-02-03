@@ -1,0 +1,87 @@
+/*Gestion du hearder */
+.titre{
+    text-align: center;
+    background-color: ;
+    margin: 0px;
+    padding-bottom: 5px;
+    z-index:2;
+}
+
+/*Gestion de l'image du header */
+.titre img{
+    background-size: cover;
+    width: 300px;
+    height: 100px;
+}
+
+
+.carousel{ z-index: 1;}
+
+/*Gestion de la div pour le fond */
+#particles-js{
+    background-color: #ED1651;
+    padding-bottom:200px;
+    z-index: 0;
+    box-shadow: inset 0px 1px 20px 20px #c91042;
+}
+.particles-js-canvas-el{
+    position:absolute;
+    top:0;
+}
+
+.titre1{
+    text-align: center;
+    background-color:#c91042 ;
+    margin: 0px;
+    padding-bottom: 5px;
+    z-index:2;
+}
+
+.promo {
+    margin: 0px;
+    font-family: Gentium Book Basic;
+    font-size: 50px;
+}
+.foot {
+    display: block;
+    margin: 0px;
+    font-family: Gentium Book Basic;
+    font-size: 20px;
+}
+
+
+
+.thumbnail img {
+  height: 100%;
+    
+  cursor: pointer;
+}
+
+#blackout {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.9);
+  text-align: center;
+  cursor: url(""), crosshair;
+}
+#blackout .title {
+  width: 100%;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  color: white;
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+#blackout img {
+  max-width: 100%;
+    width: auto;
+  max-height: 100%;
+    height: auto;
+}
